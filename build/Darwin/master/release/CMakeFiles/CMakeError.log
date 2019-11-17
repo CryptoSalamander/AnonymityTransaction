@@ -1,0 +1,523 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Determining if the function explicit_bzero exists in the c failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39721/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_39721.dir/build.make CMakeFiles/cmTC_39721.dir/build
+Building C object CMakeFiles/cmTC_39721.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_39721.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39721
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39721.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=explicit_bzero -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_39721.dir/CheckFunctionExists.c.o  -o cmTC_39721  -L/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/strings.h -Wl,-rpath,/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/strings.h -lc 
+ld: warning: directory not found for option '-L/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/strings.h'
+Undefined symbols for architecture x86_64:
+  "_explicit_bzero", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_39721] Error 1
+make[1]: *** [cmTC_39721/fast] Error 2
+
+
+
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5589/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5589.dir/build.make CMakeFiles/cmTC_d5589.dir/build
+Building C object CMakeFiles/cmTC_d5589.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d5589.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_d5589.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_d5589/fast] Error 2
+
+
+
+Determining if the include file event.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0de2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0de2.dir/build.make CMakeFiles/cmTC_e0de2.dir/build
+Building C object CMakeFiles/cmTC_e0de2.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e0de2.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'event.h' file not found
+#include <event.h>
+         ^~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_e0de2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_e0de2/fast] Error 2
+
+
+
+Determining if the include file iphlpapi.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3114f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3114f.dir/build.make CMakeFiles/cmTC_3114f.dir/build
+Building C object CMakeFiles/cmTC_3114f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3114f.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'iphlpapi.h' file not found
+#include <iphlpapi.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_3114f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_3114f/fast] Error 2
+
+
+
+Determining if the include file login_cap.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14c15/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_14c15.dir/build.make CMakeFiles/cmTC_14c15.dir/build
+Building C object CMakeFiles/cmTC_14c15.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_14c15.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'login_cap.h' file not found
+#include <login_cap.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_14c15.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_14c15/fast] Error 2
+
+
+
+Determining if the include file sys/sha2.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ca22/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4ca22.dir/build.make CMakeFiles/cmTC_4ca22.dir/build
+Building C object CMakeFiles/cmTC_4ca22.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4ca22.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/sha2.h' file not found
+#include <sys/sha2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_4ca22.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_4ca22/fast] Error 2
+
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b253a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b253a.dir/build.make CMakeFiles/cmTC_b253a.dir/build
+Building C object CMakeFiles/cmTC_b253a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b253a.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'vfork.h' file not found
+#include <vfork.h>
+         ^~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_b253a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_b253a/fast] Error 2
+
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f671b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f671b.dir/build.make CMakeFiles/cmTC_f671b.dir/build
+Building C object CMakeFiles/cmTC_f671b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f671b.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_f671b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_f671b/fast] Error 2
+
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_107b5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_107b5.dir/build.make CMakeFiles/cmTC_107b5.dir/build
+Building C object CMakeFiles/cmTC_107b5.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_107b5.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_107b5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_107b5/fast] Error 2
+
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f0d6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5f0d6.dir/build.make CMakeFiles/cmTC_5f0d6.dir/build
+Building C object CMakeFiles/cmTC_5f0d6.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5f0d6.dir/CheckIncludeFile.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'ws2tcpip.h' file not found
+#include <ws2tcpip.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_5f0d6.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_5f0d6/fast] Error 2
+
+
+
+Determining if the function _beginthreadex exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15d07/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_15d07.dir/build.make CMakeFiles/cmTC_15d07.dir/build
+Building C object CMakeFiles/cmTC_15d07.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_beginthreadex -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_15d07.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15d07
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15d07.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_beginthreadex -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_15d07.dir/CheckFunctionExists.c.o  -o cmTC_15d07 
+Undefined symbols for architecture x86_64:
+  "__beginthreadex", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_15d07] Error 1
+make[1]: *** [cmTC_15d07/fast] Error 2
+
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4618e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4618e.dir/build.make CMakeFiles/cmTC_4618e.dir/build
+Building C object CMakeFiles/cmTC_4618e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getauxval -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4618e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4618e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4618e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getauxval -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_4618e.dir/CheckFunctionExists.c.o  -o cmTC_4618e 
+Undefined symbols for architecture x86_64:
+  "_getauxval", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_4618e] Error 1
+make[1]: *** [cmTC_4618e/fast] Error 2
+
+
+
+Determining if the function ioctlsocket exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_192d8/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_192d8.dir/build.make CMakeFiles/cmTC_192d8.dir/build
+Building C object CMakeFiles/cmTC_192d8.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ioctlsocket -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_192d8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_192d8
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_192d8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ioctlsocket -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_192d8.dir/CheckFunctionExists.c.o  -o cmTC_192d8 
+Undefined symbols for architecture x86_64:
+  "_ioctlsocket", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_192d8] Error 1
+make[1]: *** [cmTC_192d8/fast] Error 2
+
+
+
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4567b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4567b.dir/build.make CMakeFiles/cmTC_4567b.dir/build
+Building C object CMakeFiles/cmTC_4567b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=reallocarray -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4567b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4567b
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4567b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=reallocarray -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_4567b.dir/CheckFunctionExists.c.o  -o cmTC_4567b 
+Undefined symbols for architecture x86_64:
+  "_reallocarray", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_4567b] Error 1
+make[1]: *** [cmTC_4567b/fast] Error 2
+
+
+
+Determining if the function setresgid exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b147e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b147e.dir/build.make CMakeFiles/cmTC_b147e.dir/build
+Building C object CMakeFiles/cmTC_b147e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setresgid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b147e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b147e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b147e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setresgid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_b147e.dir/CheckFunctionExists.c.o  -o cmTC_b147e 
+Undefined symbols for architecture x86_64:
+  "_setresgid", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_b147e] Error 1
+make[1]: *** [cmTC_b147e/fast] Error 2
+
+
+
+Determining if the function setresuid exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a3e3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4a3e3.dir/build.make CMakeFiles/cmTC_4a3e3.dir/build
+Building C object CMakeFiles/cmTC_4a3e3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setresuid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4a3e3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a3e3
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a3e3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setresuid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_4a3e3.dir/CheckFunctionExists.c.o  -o cmTC_4a3e3 
+Undefined symbols for architecture x86_64:
+  "_setresuid", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_4a3e3] Error 1
+make[1]: *** [cmTC_4a3e3/fast] Error 2
+
+
+
+Determining if the function setusercontent exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4199/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a4199.dir/build.make CMakeFiles/cmTC_a4199.dir/build
+Building C object CMakeFiles/cmTC_a4199.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setusercontent -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a4199.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4199
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4199.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setusercontent -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_a4199.dir/CheckFunctionExists.c.o  -o cmTC_a4199 
+Undefined symbols for architecture x86_64:
+  "_setusercontent", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_a4199] Error 1
+make[1]: *** [cmTC_a4199/fast] Error 2
+
+
+
+Determining if the pthread_rwlock_t exist failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e839/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e839.dir/build.make CMakeFiles/cmTC_7e839.dir/build
+Building C object CMakeFiles/cmTC_7e839.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7e839.dir/CheckSymbolExists.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: unexpected type name 'pthread_rwlock_t': expected expression
+  return ((int*)(&pthread_rwlock_t))[argc];
+                  ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_7e839.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_7e839/fast] Error 2
+
+
+File /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_rwlock_t
+  return ((int*)(&pthread_rwlock_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_spinlock_t exist failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f034/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5f034.dir/build.make CMakeFiles/cmTC_5f034.dir/build
+Building C object CMakeFiles/cmTC_5f034.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5f034.dir/CheckSymbolExists.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'pthread_spinlock_t'
+  return ((int*)(&pthread_spinlock_t))[argc];
+                  ^
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_5f034.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_5f034/fast] Error 2
+
+
+File /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_spinlock_t
+  return ((int*)(&pthread_spinlock_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function EVP_MD_CTX_new exists failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f11cc/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f11cc.dir/build.make CMakeFiles/cmTC_f11cc.dir/build
+Building C object CMakeFiles/cmTC_f11cc.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/usr/local/opt/openssl/include  -DCHECK_FUNCTION_EXISTS=EVP_MD_CTX_new -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f11cc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.5/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f11cc
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f11cc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=EVP_MD_CTX_new -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_f11cc.dir/CheckFunctionExists.c.o  -o cmTC_f11cc /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib 
+Undefined symbols for architecture x86_64:
+  "_EVP_MD_CTX_new", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_f11cc] Error 1
+make[1]: *** [cmTC_f11cc/fast] Error 2
+
+
+
+Determining if the LIBRESSL_VERSION_TEXT exist failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ad91/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9ad91.dir/build.make CMakeFiles/cmTC_9ad91.dir/build
+Building C object CMakeFiles/cmTC_9ad91.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9ad91.dir/CheckSymbolExists.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'openssl/opensslv.h' file not found
+#include <openssl/opensslv.h>
+         ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_9ad91.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [cmTC_9ad91/fast] Error 2
+
+
+File /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/opensslv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LIBRESSL_VERSION_TEXT
+  return ((int*)(&LIBRESSL_VERSION_TEXT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test _fstack_clash_protection_c failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c3e2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5c3e2.dir/build.make CMakeFiles/cmTC_5c3e2.dir/build
+Building C object CMakeFiles/cmTC_5c3e2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fstack_clash_protection_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fstack-clash-protection -o CMakeFiles/cmTC_5c3e2.dir/src.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-fstack-clash-protection'
+make[2]: *** [CMakeFiles/cmTC_5c3e2.dir/src.c.o] Error 1
+make[1]: *** [cmTC_5c3e2/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fstack_clash_protection_cxx failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_485ba/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_485ba.dir/build.make CMakeFiles/cmTC_485ba.dir/build
+Building CXX object CMakeFiles/cmTC_485ba.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fstack_clash_protection_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fstack-clash-protection -o CMakeFiles/cmTC_485ba.dir/src.cxx.o -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-fstack-clash-protection'
+make[2]: *** [CMakeFiles/cmTC_485ba.dir/src.cxx.o] Error 1
+make[1]: *** [cmTC_485ba/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _mmitigate_rop_c failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8179c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8179c.dir/build.make CMakeFiles/cmTC_8179c.dir/build
+Building C object CMakeFiles/cmTC_8179c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_mmitigate_rop_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -mmitigate-rop -o CMakeFiles/cmTC_8179c.dir/src.c.o   -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mmitigate-rop'
+make[2]: *** [CMakeFiles/cmTC_8179c.dir/src.c.o] Error 1
+make[1]: *** [cmTC_8179c/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _mmitigate_rop_cxx failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6066d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6066d.dir/build.make CMakeFiles/cmTC_6066d.dir/build
+Building CXX object CMakeFiles/cmTC_6066d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_mmitigate_rop_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -mmitigate-rop -o CMakeFiles/cmTC_6066d.dir/src.cxx.o -c /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mmitigate-rop'
+make[2]: *** [CMakeFiles/cmTC_6066d.dir/src.cxx.o] Error 1
+make[1]: *** [cmTC_6066d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the -Wl,-z,relro linker flag is supported failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42b6e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_42b6e.dir/build.make CMakeFiles/cmTC_42b6e.dir/build
+Building C object CMakeFiles/cmTC_42b6e.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-z,relro  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wl,-z,relro -o CMakeFiles/cmTC_42b6e.dir/CheckLinkerFlag.c.o   -c /Users/hahyunsoo/ForJournal/monero/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,relro: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,relro: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_42b6e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42b6e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-z,relro  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_42b6e.dir/CheckLinkerFlag.c.o  -o cmTC_42b6e 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_42b6e] Error 1
+make[1]: *** [cmTC_42b6e/fast] Error 2
+
+
+
+Determining if the -Wl,-z,now linker flag is supported failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75159/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75159.dir/build.make CMakeFiles/cmTC_75159.dir/build
+Building C object CMakeFiles/cmTC_75159.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-z,now  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wl,-z,now -o CMakeFiles/cmTC_75159.dir/CheckLinkerFlag.c.o   -c /Users/hahyunsoo/ForJournal/monero/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,now: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,now: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_75159
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75159.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-z,now  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_75159.dir/CheckLinkerFlag.c.o  -o cmTC_75159 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_75159] Error 1
+make[1]: *** [cmTC_75159/fast] Error 2
+
+
+
+Determining if the -Wl,-z,noexecstack linker flag is supported failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5effc/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5effc.dir/build.make CMakeFiles/cmTC_5effc.dir/build
+Building C object CMakeFiles/cmTC_5effc.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-z,noexecstack  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wl,-z,noexecstack -o CMakeFiles/cmTC_5effc.dir/CheckLinkerFlag.c.o   -c /Users/hahyunsoo/ForJournal/monero/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,noexecstack: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,noexecstack: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_5effc
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5effc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-z,noexecstack  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_5effc.dir/CheckLinkerFlag.c.o  -o cmTC_5effc 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_5effc] Error 1
+make[1]: *** [cmTC_5effc/fast] Error 2
+
+
+
+Determining if the -Wl,-z,noexecheap linker flag is supported failed with the following output:
+Change Dir: /Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a776/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a776.dir/build.make CMakeFiles/cmTC_0a776.dir/build
+Building C object CMakeFiles/cmTC_0a776.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-z,noexecheap  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wl,-z,noexecheap -o CMakeFiles/cmTC_0a776.dir/CheckLinkerFlag.c.o   -c /Users/hahyunsoo/ForJournal/monero/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-z,noexecheap: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-z,noexecheap: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_0a776
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a776.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-z,noexecheap  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib  CMakeFiles/cmTC_0a776.dir/CheckLinkerFlag.c.o  -o cmTC_0a776 
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_0a776] Error 1
+make[1]: *** [cmTC_0a776/fast] Error 2
+
+
+

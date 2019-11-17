@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libhardforks.a  CMakeFiles/obj_hardforks.dir/hardforks.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libhardforks.a

@@ -1,0 +1,8 @@
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/install/local.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/list_install_components.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/rebuild_cache.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/edit_cache.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/install/strip.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/install.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/gtest_main.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/tests/gtest/CMakeFiles/gtest.dir

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../src/version.h
+
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/version.cpp
+version.h
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/version.h
+

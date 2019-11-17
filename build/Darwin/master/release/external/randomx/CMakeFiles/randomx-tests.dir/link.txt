@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -march=x86-64 -fvisibility=default -std=c++11 -maes -DNDEBUG -Ofast -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/expat/lib CMakeFiles/randomx-tests.dir/src/tests/tests.cpp.o  -o randomx-tests librandomx.a 

@@ -1,0 +1,116 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/compat/explicit_bzero.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/compat/explicit_bzero.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/compat/getentropy_osx.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/compat/getentropy_osx.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/compat/reallocarray.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/compat/reallocarray.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/dns64/dns64.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/dns64/dns64.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_delegpt.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_delegpt.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_donotq.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_donotq.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_fwd.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_fwd.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_hints.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_hints.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_priv.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_priv.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_resptype.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_resptype.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_scrub.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_scrub.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iter_utils.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iter_utils.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/iterator/iterator.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/iterator/iterator.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/libunbound/context.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/libunbound/context.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/libunbound/libunbound.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/libunbound/libunbound.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/libunbound/libworker.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/libunbound/libworker.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/respip/respip.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/respip/respip.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/authzone.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/authzone.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/cache/dns.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/cache/dns.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/cache/infra.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/cache/infra.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/cache/rrset.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/cache/rrset.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/listen_dnsport.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/listen_dnsport.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/localzone.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/localzone.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/mesh.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/mesh.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/modstack.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/modstack.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/outbound_list.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/outbound_list.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/outside_network.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/outside_network.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/services/view.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/services/view.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/keyraw.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/keyraw.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/parse.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/parse.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/parseutil.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/parseutil.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/rrdef.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/rrdef.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/sbuffer.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/sbuffer.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/str2wire.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/str2wire.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/sldns/wire2str.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/sldns/wire2str.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/testcode/checklocks.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/testcode/checklocks.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/alloc.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/alloc.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/as112.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/as112.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/config_file.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/config_file.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/configlexer.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/configlexer.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/configparser.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/configparser.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/data/dname.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/data/dname.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/data/msgencode.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/data/msgencode.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/data/msgparse.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/data/msgparse.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/data/msgreply.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/data/msgreply.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/data/packed_rrset.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/data/packed_rrset.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/fptr_wlist.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/fptr_wlist.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/locks.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/locks.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/log.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/log.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/mini_event.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/mini_event.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/module.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/module.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/net_help.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/net_help.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/netevent.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/netevent.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/random.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/random.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/rbtree.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/rbtree.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/regional.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/regional.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/rtt.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/rtt.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/storage/dnstree.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/storage/dnstree.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/storage/lookup3.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/storage/lookup3.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/storage/lruhash.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/storage/lruhash.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/storage/slabhash.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/storage/slabhash.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/timehist.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/timehist.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/tube.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/tube.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/ub_event.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/ub_event.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/util/winsock_event.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/util/winsock_event.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/autotrust.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/autotrust.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_anchor.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_anchor.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_kcache.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_kcache.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_kentry.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_kentry.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_neg.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_neg.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_nsec.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_nsec.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_nsec3.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_nsec3.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_secalgo.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_secalgo.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_sigcrypt.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_sigcrypt.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/val_utils.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/val_utils.c.o"
+  "/Users/hahyunsoo/ForJournal/monero/external/unbound/validator/validator.c" "/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/external/unbound/CMakeFiles/unbound.dir/validator/validator.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "AUTO_INITIALIZE_EASYLOGGINGPP"
+  "BLOCKCHAIN_DB=DB_LMDB"
+  "DEFAULT_DB_TYPE=\"lmdb\""
+  "HAVE_MEMSET_S"
+  "HAVE_STRPTIME"
+  "PER_BLOCK_CHECKPOINT"
+  "_GNU_SOURCE"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../../../../external/rapidjson/include"
+  "../../../../external/easylogging++"
+  "../../../../src"
+  "../../../../contrib/epee/include"
+  "../../../../external"
+  "translations"
+  "../../../../external/unbound"
+  "external/unbound"
+  "/usr/include/malloc"
+  "/usr/local/opt/openssl/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

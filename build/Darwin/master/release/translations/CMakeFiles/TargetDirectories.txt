@@ -1,0 +1,3 @@
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/translations/CMakeFiles/rebuild_cache.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/translations/CMakeFiles/edit_cache.dir
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/translations/CMakeFiles/generate_translations_header.dir

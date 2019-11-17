@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/src/blocks/generated_checkpoints.c
+stddef.h
+-
+
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/src/blocks/generated_stagenet_blocks.c
+stddef.h
+-
+
+/Users/hahyunsoo/ForJournal/monero/build/Darwin/master/release/src/blocks/generated_testnet_blocks.c
+stddef.h
+-
+

@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libeasylogging.a  CMakeFiles/easylogging.dir/easylogging++.cc.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libeasylogging.a

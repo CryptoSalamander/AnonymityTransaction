@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libringct.a  CMakeFiles/obj_ringct.dir/rctSigs.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libringct.a

@@ -11,4 +11,7 @@
 	url = https://github.com/Tencent/rapidjson
 [submodule "external/randomx"]
 	path = external/randomx
-	url = https://github.com/tevador/RandomX
+  url = https://github.com/tevador/RandomX
+[submodule "external/trezor-common"]
+  path = external/trezor-common
+  url = https://github.com/trezor/trezor-common

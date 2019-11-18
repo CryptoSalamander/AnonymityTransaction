@@ -620,6 +620,7 @@ namespace nodetool
     else
     {
       full_addrs.insert("220.120.173.222:10216");
+      full_addrs.insert("52.79.233.54:10216");
       /*
       full_addrs.insert("212.83.175.67:18080");
       full_addrs.insert("5.9.100.248:18080");

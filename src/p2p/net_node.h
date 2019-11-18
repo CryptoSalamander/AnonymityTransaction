@@ -282,7 +282,8 @@ namespace nodetool
   private:
     const std::vector<std::string> m_seed_nodes_list =
     {
-      "220.120.173.222:10216"
+      "220.120.173.222:10216",
+      "52.79.233.54:10216"
       /*"seeds.moneroseeds.se"
     , "seeds.moneroseeds.ae.org"
     , "seeds.moneroseeds.ch"

@@ -94,5 +94,5 @@ target_link_libraries(daemon
     ${Blocks})
 set_property(TARGET daemon
   PROPERTY
-    OUTPUT_NAME "hsvoted")
+    OUTPUT_NAME "anonyvoted")
 install(TARGETS daemon DESTINATION bin)

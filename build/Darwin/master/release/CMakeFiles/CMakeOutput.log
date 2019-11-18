@@ -701,3 +701,107 @@ Linking CXX executable cmTC_c59a0
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94841/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_94841.dir/build.make CMakeFiles/cmTC_94841.dir/build
+Building CXX object CMakeFiles/cmTC_94841.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_94841.dir/src.cxx.o -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_94841
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94841.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94841.dir/src.cxx.o  -o cmTC_94841 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9c25/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9c25.dir/build.make CMakeFiles/cmTC_a9c25.dir/build
+Building C object CMakeFiles/cmTC_a9c25.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -D_march=native_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_a9c25.dir/src.c.o   -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a9c25
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c25.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -D_march=native_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9c25.dir/src.c.o  -o cmTC_a9c25 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b516/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1b516.dir/build.make CMakeFiles/cmTC_1b516.dir/build
+Building C object CMakeFiles/cmTC_1b516.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_1b516.dir/src.c.o   -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1b516
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b516.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b516.dir/src.c.o  -o cmTC_1b516 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa98d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fa98d.dir/build.make CMakeFiles/cmTC_fa98d.dir/build
+Building CXX object CMakeFiles/cmTC_fa98d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_fa98d.dir/src.cxx.o -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa98d
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa98d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fa98d.dir/src.cxx.o  -o cmTC_fa98d 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _march=native_cxx succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5fca/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f5fca.dir/build.make CMakeFiles/cmTC_f5fca.dir/build
+Building CXX object CMakeFiles/cmTC_f5fca.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_f5fca.dir/src.cxx.o -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5fca
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5fca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -march=x86-64 -fvisibility=default -std=c++11 -D_march=native_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5fca.dir/src.cxx.o  -o cmTC_f5fca 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=native_c succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a9ee/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4a9ee.dir/build.make CMakeFiles/cmTC_4a9ee.dir/build
+Building C object CMakeFiles/cmTC_4a9ee.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -D_march=native_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -march=native -o CMakeFiles/cmTC_4a9ee.dir/src.c.o   -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4a9ee
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a9ee.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -D_march=native_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4a9ee.dir/src.c.o  -o cmTC_4a9ee 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _fcf_protection=full_c succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_588a3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_588a3.dir/build.make CMakeFiles/cmTC_588a3.dir/build
+Building C object CMakeFiles/cmTC_588a3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_588a3.dir/src.c.o   -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_588a3
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_588a3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_c -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_588a3.dir/src.c.o  -o cmTC_588a3 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _fcf_protection=full_cxx succeeded with the following output:
+Change Dir: /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9280e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9280e.dir/build.make CMakeFiles/cmTC_9280e.dir/build
+Building CXX object CMakeFiles/cmTC_9280e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -fcf-protection=full -o CMakeFiles/cmTC_9280e.dir/src.cxx.o -c /Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9280e
+/usr/local/Cellar/cmake/3.15.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9280e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -march=x86-64 -fvisibility=default -std=c++11 -maes -march=native -fno-strict-aliasing -D_fcf_protection=full_cxx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9280e.dir/src.cxx.o  -o cmTC_9280e 
+
+
+Source file was:
+int main() { return 0; }

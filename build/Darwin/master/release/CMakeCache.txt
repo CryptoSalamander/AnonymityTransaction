@@ -33,8 +33,8 @@ BUILD_DOCUMENTATION:BOOL=ON
 //Build GUI dependencies.
 BUILD_GUI_DEPS:BOOL=OFF
 
-//Build tests.
-BUILD_TESTS:BOOL=ON
+//No help, variable specified on the command line.
+BUILD_TESTS:UNINITIALIZED=ON
 
 //Header providing backtrace(3) facility
 Backtrace_HEADER:STRING=execinfo.h
@@ -528,6 +528,9 @@ ZMQ_LIB:FILEPATH=/usr/local/lib/libzmq.dylib
 //Test _fcf_protection=full_cxx
 _fcf_protection:UNINITIALIZED=full_cxx:INTERNAL=1
 
+//Test _march=native_cxx
+_march:UNINITIALIZED=native_cxx:INTERNAL=1
+
 //Dependencies for the target
 blockchain_db_LIB_DEPENDS:STATIC=general;common;general;cncrypto;general;ringct;general;lmdb;general;/usr/local/lib/libboost_filesystem-mt.dylib;general;/usr/local/lib/libboost_thread-mt.dylib;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/IOKit.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreFoundation.framework;
 
@@ -595,10 +598,10 @@ miniupnpc_SOURCE_DIR:STATIC=/Users/hahyunsoo/Github/Anonymityvoting/external/min
 mnemonics_LIB_DEPENDS:STATIC=general;epee;general;easylogging;general;/usr/local/lib/libboost_system-mt.dylib;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/IOKit.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreFoundation.framework;
 
 //Value Computed by CMake
-monero_BINARY_DIR:STATIC=/Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release/src/cryptonote_protocol
+monero_BINARY_DIR:STATIC=/Users/hahyunsoo/Github/Anonymityvoting/build/Darwin/master/release
 
 //Value Computed by CMake
-monero_SOURCE_DIR:STATIC=/Users/hahyunsoo/Github/Anonymityvoting/src/cryptonote_protocol
+monero_SOURCE_DIR:STATIC=/Users/hahyunsoo/Github/Anonymityvoting
 
 //Dependencies for the target
 multisig_LIB_DEPENDS:STATIC=general;ringct;general;cryptonote_basic;general;common;general;cncrypto;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/IOKit.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreFoundation.framework;
@@ -808,7 +811,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=50
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -994,10 +997,6 @@ _Wformat_security_c:INTERNAL=1
 //Test _Wformat_security_cxx
 _Wformat_security_cxx:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
-//Test _fcf_protection=full_c
-_fcf_protection=full_c:INTERNAL=1
-//Test _fcf_protection=full_cxx
-_fcf_protection=full_cxx:INTERNAL=1
 //Test _fstack_clash_protection_c
 _fstack_clash_protection_c:INTERNAL=
 //Test _fstack_clash_protection_cxx
@@ -1014,10 +1013,6 @@ _fstack_protector_strong_cxx:INTERNAL=1
 _maes_c:INTERNAL=1
 //Test _maes_cxx
 _maes_cxx:INTERNAL=1
-//Test _march=native_c
-_march=native_c:INTERNAL=1
-//Test _march=native_cxx
-_march=native_cxx:INTERNAL=1
 //Test _mmitigate_rop_c
 _mmitigate_rop_c:INTERNAL=
 //Test _mmitigate_rop_cxx

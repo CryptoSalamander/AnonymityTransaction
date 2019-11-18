@@ -1,6 +1,7 @@
 # Monero
 
-Copyright (c) 2014-2019 The Monero Project.   
+Copyright (c) 2019 - CryptoSalamander
+Portions Copyright (c) 2014-2019 The Monero Project.   
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Table of Contents
@@ -433,7 +434,7 @@ application.
     ```
 
 * If you would like a specific [version/tag](https://github.com/monero-project/monero/tags), do a git checkout for that version. eg. 'v0.15.0.0'. If you don't care about the version and just want binaries from master, skip this step:
-	
+
     ```bash
     git checkout v0.15.0.0
     ```
@@ -588,13 +589,13 @@ More info and versions in the [Debian package tracker](https://tracker.debian.or
     ```bash
     # Build using all available cores
     docker build -t monero .
-    
+
     # or build using a specific number of cores (reduce RAM requirement)
     docker build --build-arg NPROC=1 -t monero .
-    
+
     # either run in foreground
     docker run -it -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
-    
+
     # or in background
     docker run -it -d -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
     ```

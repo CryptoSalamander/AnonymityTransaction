@@ -284,6 +284,7 @@ namespace nodetool
     {
       //"220.120.173.222:10217",
       "35.188.104.163:10217"
+      "116.125.62.57:10217"
       /*"seeds.moneroseeds.se"
     , "seeds.moneroseeds.ae.org"
     , "seeds.moneroseeds.ch"

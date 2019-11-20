@@ -195,8 +195,8 @@ namespace config
   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 19;
   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 42;
   uint16_t const P2P_DEFAULT_PORT = 10216;
-  uint16_t const RPC_DEFAULT_PORT = 20216;
-  uint16_t const ZMQ_RPC_DEFAULT_PORT = 30216;
+  uint16_t const RPC_DEFAULT_PORT = 10217;
+  uint16_t const ZMQ_RPC_DEFAULT_PORT = 10218;
   boost::uuids::uuid const NETWORK_ID = { {
       0x43 ,0x72, 0x79, 0x70 , 0x74, 0x6F , 0x53, 0x61, 0x6C, 0x61, 0x6D, 0x61, 0x6E, 0x64, 0x65, 0x72
     } }; // CryptoSalamander

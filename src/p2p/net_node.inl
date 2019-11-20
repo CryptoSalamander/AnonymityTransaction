@@ -2363,12 +2363,12 @@ namespace nodetool
       return 1;
     }
 
-    /*if(has_too_many_connections(context.m_remote_address))
+    if(has_too_many_connections(context.m_remote_address))
     {
       LOG_PRINT_CCONTEXT_L1("CONNECTION FROM " << context.m_remote_address.host_str() << " REFUSED, too many connections from the same address");
       drop_connection(context);
       return 1;
-    }*/
+    }
 
     //associate peer_id with this connection
     context.peer_id = arg.node_data.peer_id;
